@@ -20,3 +20,10 @@ ul {
   display: flex;
   gap: 10px;
 }
+.img {
+  width: 2%;
+  margin-left: 20px;
+}
+.input-add {
+  display: flex;
+}
