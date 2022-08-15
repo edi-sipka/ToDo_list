@@ -53,6 +53,10 @@ $ npm start
 
 ---
 
+## Live Version
+
+- Live: [Check it here] (https://edi-sipka.github.io/ToDo_list/dist/)
+
 ## Authors
 
 👤 **Edi Šipka **
