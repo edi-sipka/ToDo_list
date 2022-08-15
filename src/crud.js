@@ -18,7 +18,7 @@ const display = () => {
     list.innerHTML = `
     <input type="checkbox" class="check" ${comp} id="check" data-set="${task.index}" >
     <input class="edit" type="text" value="${task.description}" id="text">
-    <div>
+    <div class="can">
     <i id="${task.index}" class="fa-solid fa-trash-can"></i>
     </div>
     `;

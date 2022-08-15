@@ -1,15 +1,22 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(234, 219, 235);
   box-sizing: border-box;
   margin: 10%;
   padding: 0;
   border: 1px solid #7e7e7e;
 }
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 
 .heading {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 32px;
+  font-weight: 600;
   margin: 10px;
+  font-family: 'Lato', sans-serif;
 }
 
 ul {
@@ -28,9 +35,55 @@ ul {
 
 .input-add {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-task,
+.edit {
+  display: inline-block;
+  font-weight: bold;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: 2px;
+  padding: 5px;
+}
+.material-symbols-outlined {
+  padding: 10px;
 }
 
 .images {
   width: 15px;
   margin-left: 20px;
+}
+.do-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 65px;
+}
+.can {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.list {
+  padding: 5px;
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+.delete {
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  background-color: #9c599c;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 2px;
+  padding: 5px;
 }
