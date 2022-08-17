@@ -52,6 +52,7 @@ addButton.addEventListener('click', (e) => {
   inputValue.value = '';
   display();
 });
+
 const removeListing = (index) => {
   const removeList = taskList.filter((element) => element.index !== index);
   taskList.length = 0;
